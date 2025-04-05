@@ -27,7 +27,7 @@ class TeachersPet(toga.App):
         self.papers_dir = None
         self.dotenv_fpath = os.path.join(self.paths.app, "resources", ".env")
         self.openai_model_for_filling_rubrics = "gpt-4o-mini"
-        self.openai_model_for_summary = "gpt-4-turbo"
+        self.openai_model_for_summary = "gpt-4o"
 
         main_box = self.create_main_box()
 
