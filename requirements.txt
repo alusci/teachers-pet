@@ -1,0 +1,7 @@
+briefcase
+python-dotenv
+pypandoc
+langchain
+langchain-openai
+pandas
+numpy
