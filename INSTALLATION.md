@@ -17,6 +17,14 @@ A cross-platform AI application designed to help teachers with their day-to-day 
    pip install -r requirements.txt
    ```
 
+3. Configure API Keys:
+   - Obtain an OpenAI API key from [OpenAI's platform](https://platform.openai.com)
+   - Create or edit the `.env` file in `teachers-pet/src/teachers_pet/resources/` directory:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+   - Note: The application requires a valid OpenAI API key to function properly
+
 ### Running the Application
 
 #### Development Mode
